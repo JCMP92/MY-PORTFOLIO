@@ -4,14 +4,17 @@ module.exports = {
   content: ['./src/Components/Navbar.js', './src/Pages/Home.js'],
   theme: {
     screens: {
-      sm: '576px',
-      // => @media (min-width: 576px) { ... }
+      xl: { max: '1440px' },
+      // => @media (max-width: 1440px) { ... }
 
-      md: '960px',
-      // => @media (min-width: 960px) { ... }
+      lg: { max: '1024px' },
+      // => @media (max-width: 1024px) { ... }
 
-      lg: '1440px',
-      // => @media (min-width: 1440px) { ... }
+      md: { max: '768px' },
+      // => @media (max-width: 768px) { ... }
+
+      sm: { max: '425px' },
+      // => @media (max-width:425px) { ... }
     },
     extend: {},
   },
