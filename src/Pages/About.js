@@ -39,7 +39,7 @@ function About() {
         <div className="w-4/5 p-1 m-2 text-slate-200 font-bold">
           <h2>
             Hi, my name is Juan, I´m a self taught Front End Developer based in
-            Mexico, and rigth now I´m on the Setp 5 of my self made guide of How
+            Mexico, and right now I´m on the Setp 5 of my self made guide of How
             to become a Front End Developer. I enjoy taking ideas and turning
             them into something real. In my journey as a Developer I have found
             a love to continuously leraning new skills, and technologies, as
