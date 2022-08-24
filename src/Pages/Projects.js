@@ -8,9 +8,13 @@ import RPSGame from '../Img/gif/rpsgame.gif';
 
 function Projects() {
   return (
-    <div>
-      <h1>Projects Page</h1>
-      <div className="projects-container">
+    <div className="h-auto p-4 flex flex-col items-center">
+      <div className="my-1.5">
+        <h1 className="text-orange-600 text-3xl sm:text-lg md:text-xl  font-bold ">
+          Projects Page
+        </h1>
+      </div>
+      <div className="projects-container mt-4 w-3/5 sm:w-full md:w-full">
         <Project
           name="Skol: Beer Catalogue"
           url={Skol}
