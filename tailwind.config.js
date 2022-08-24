@@ -6,7 +6,9 @@ module.exports = {
     './src/Pages/Home.js',
     './src/Pages/About.js',
     './src/Pages/Projects.js',
+    './src/Pages/Contact.js',
     './src/Components/Project-Card.js',
+    './src/Components/ContactForm.js',
   ],
   theme: {
     screens: {
