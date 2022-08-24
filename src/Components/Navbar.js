@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
+import logo from '../Img/Juan Montes-Pesquera-B.png';
 function Navbar() {
   return (
     <div>
       <div>
         <h2>
-          <Link to="/">Home</Link>
+          <Link to="/">
+            <img src={logo} alt="logo-juan" height="100px" />
+          </Link>
         </h2>
       </div>
       <div>
@@ -13,9 +16,6 @@ function Navbar() {
         </h2>
         <h2>
           <Link to="/projects">Projects</Link>
-        </h2>
-        <h2>
-          <Link to="/cV">CV</Link>
         </h2>
         <h2>
           <Link to="/contact">Contact</Link>

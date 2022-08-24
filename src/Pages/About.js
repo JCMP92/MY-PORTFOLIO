@@ -1,6 +1,11 @@
+import photo from '../Img/proxy-photo.jpg';
+
 function About() {
   return (
     <div>
+      <div className="personal-photo">
+        <img src={photo} alt="me" height="300px" />
+      </div>
       <div className="learning-guide">
         <h2>How an Architect can became a Front End Developer?</h2>
         <h3>

@@ -17,6 +17,7 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          window.alert('Message Sent');
         },
         (error) => {
           console.log(error.text);
