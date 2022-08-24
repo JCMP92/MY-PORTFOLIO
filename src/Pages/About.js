@@ -28,8 +28,8 @@ function About() {
       <div className="my-description">
         <h2>
           Hi, my name is Juan, I´m a self taught Front End Developer based in
-          Mexico and rigth now I´m on the Setp 5 of my self made guide of How to
-          become a Front End Developer. I enjoy taking ideas and turning them
+          Mexico, and rigth now I´m on the Setp 5 of my self made guide of How
+          to become a Front End Developer. I enjoy taking ideas and turning them
           into something real. In my journey as a Developer I have found a love
           to continuously leraning new skills, and technologies, as well as
           seeing my projects come to life in desktop and mobile devices.
