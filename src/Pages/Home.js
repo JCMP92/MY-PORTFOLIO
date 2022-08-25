@@ -6,7 +6,8 @@ function Home() {
       <div className="sm:w-4/5 space-y-10 font-bold ">
         <h1 className="text-left sm:text-center">Hello World!</h1>
         <h1 className="text-left ml-6 sm:ml-0 sm:text-center">
-          I´m <span className="text-orange-600">Juan Montes-Pesquera</span>
+          I´m{' '}
+          <span className="text-orange-600">Juan Carlos Montes Pesquera</span>
         </h1>
         <h1 className="text-left sm:text-center">
           A <span className="text-orange-600">Front End</span> Developer
