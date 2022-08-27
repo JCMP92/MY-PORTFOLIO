@@ -1,4 +1,4 @@
-import photo from '../Img/proxy-photo.jpg';
+import photo from '../Img/juan.png';
 
 function About() {
   return (
