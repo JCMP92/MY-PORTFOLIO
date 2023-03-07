@@ -11,7 +11,7 @@ function Projects() {
     <div className="h-full p-4 flex flex-col items-center">
       <div className="my-1.5">
         <h1 className="text-orange-600 text-3xl sm:text-lg md:text-xl  font-bold ">
-          My Projects
+          Web Development Projects
         </h1>
       </div>
       <div className="projects-container mt-4 w-3/5 sm:w-full md:w-full">

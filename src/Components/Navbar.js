@@ -3,7 +3,7 @@ import logo from '../Img/juan-logo.png';
 
 function Navbar() {
   return (
-    <div className="flex sm:flex-col justify-between sm:justify-evenly items-center bg-zinc-800 h-1/6  sm:px-2 md:px-10 p-10">
+    <div className="flex w-full sm:flex-col justify-between sm:justify-evenly items-center bg-zinc-800 h-1/6  sm:px-2 md:px-10 p-10">
       <div className="flex items-center justify-center hover:scale-105">
         <div>
           <Link to="/">
@@ -15,14 +15,17 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <div className="flex justify-end sm:justify-evenly items-center w-4/5 text-base md:space-x-5 lg:space-x-8 space-x-10">
-        <h2 className="text-slate-200 hover:scale-110">
+      <div className="flex w-full justify-end sm:justify-evenly items-center w-4/5 text-base md:space-x-5 lg:space-x-8 space-x-10">
+        <h2 className="text-slate-200 hover:scale-110 sm:text-sm">
           <Link to="/about">About</Link>
         </h2>
-        <h2 className="text-slate-200 hover:scale-110">
-          <Link to="/projects">Projects</Link>
+        <h2 className="text-slate-200 hover:scale-110 sm:text-sm">
+          <Link to="/projects">Web Projects</Link>
         </h2>
-        <h2 className="text-slate-200 hover:scale-110">
+        <h2 className="text-slate-200 hover:scale-110 sm:text-sm">
+          <Link to="/uxprojects">UX Projects</Link>
+        </h2>
+        <h2 className="text-slate-200 hover:scale-110 sm:text-sm">
           <Link to="/contact">Contact</Link>
         </h2>
       </div>
