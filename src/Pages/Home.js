@@ -10,7 +10,8 @@ function Home() {
           <span className="text-orange-600">Juan Carlos Montes Pesquera</span>
         </h1>
         <h1 className="text-left sm:text-center">
-          A <span className="text-orange-600">Front End</span> Developer
+          A <span className="text-orange-600">Front End</span> Developer &{' '}
+          <span className="text-orange-600">UX</span> Designer
         </h1>
         <h1 className="animate-bounce text-orange-600 ">
           <Link to="/about">Get to know me!</Link>

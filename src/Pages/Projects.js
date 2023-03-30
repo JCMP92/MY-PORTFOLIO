@@ -9,7 +9,7 @@ import RPSGame from '../Img/gif/rpsgame.gif';
 function Projects() {
   return (
     <div className="h-full p-4 flex flex-col items-center">
-      <div className="my-1.5">
+      <div className="inline-block my-10">
         <h1 className="text-orange-600 text-3xl sm:text-lg md:text-xl  font-bold ">
           Web Development Projects
         </h1>

@@ -6,8 +6,10 @@ module.exports = {
     './src/Pages/Home.js',
     './src/Pages/About.js',
     './src/Pages/Projects.js',
+    './src/Pages/UXprojects.js',
     './src/Pages/Contact.js',
     './src/Components/Project-Card.js',
+    './src/Components/Projectux-Card.js',
     './src/Components/ContactForm.js',
   ],
   theme: {
